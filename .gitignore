@@ -1,0 +1,13 @@
+# Personal interview practice notes (not part of the project)
+interview_prep.md
+
+# SQL Server Management Studio / editor files
+*.ssmssln
+*.ssmssqlproj
+.vs/
+.vscode/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
