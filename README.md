@@ -119,6 +119,7 @@ olist-data-warehouse/
 ├── tests/
 │   ├── quality_checks_silver.sql
 │   └── quality_checks_gold.sql
+├── LICENSE
 └── README.md
 ```
 
@@ -144,10 +145,14 @@ olist-data-warehouse/
 
 ## Credits
 
-- **Structure and naming conventions:** based on the [Data With Baraa](https://www.youtube.com/@datawithbaraa) SQL Data Warehouse tutorial. My first version of that project, on its CRM/ERP dataset, is [here](https://github.com/BachNguyen-111/data-warehouse).
+- **Structure and naming conventions:** based on the [Data With Baraa](https://www.youtube.com/@datawithbaraa) SQL Data Warehouse tutorial. My first version of that project, on its CRM/ERP dataset, is [here](https://github.com/BachNguyen-111/sql-dwh-scd2-sales-mart).
 - **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle).
 - **AI assistance:** I used [Claude](https://claude.ai) (Anthropic) as an assistant to help write and review the SQL, write the documentation, and draw the diagrams. I made the design decisions above and tested every step.
 
 ## About me
 
 I'm a business analytics student who enjoys the practical analytical side of data: figuring out how the numbers fit together and making them reliable enough to make decisions with.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
