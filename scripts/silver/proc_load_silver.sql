@@ -9,7 +9,8 @@ Script Purpose:
     - Truncates the silver tables.
     - Inserts cleansed and standardized data from bronze into silver.
 
-Transformations (see docs/04_issue_log.md for the DQ IDs):
+Transformations (DQ IDs refer to the issue log of the analysis project:
+    https://github.com/BachNguyen-111/olist-ecommerce-analysis/blob/main/docs/04_issue_log.md):
     - olist_customers / olist_sellers:
         trim spaces, lowercase city, uppercase state,
         restore leading zeros in the zip code prefix (always 5 digits).
